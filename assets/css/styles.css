@@ -19,7 +19,7 @@ Blue grey: #3e4249
      -webkit-font-smoothing: antialiased;
      text-rendering: optimizeLegibility;
      font-weight: bold;
-
+    
  }
 
  h1 {
@@ -35,6 +35,11 @@ Blue grey: #3e4249
      font-size: 18px;
     
  }
+ button, input, .btn, a.btn {
+     -webkit-font-smoothing: antialiased;
+     text-rendering: optimizeLegibility;
+     color: white;
+ }
  .btn {
      font-weight: bold;
 
@@ -44,6 +49,10 @@ Blue grey: #3e4249
      background-color: #dd5638;
      border-collapse: #d95131;
      
+ }
+
+ img {
+     max-width: 100%;
  }
  /* hero */
  #hero {
@@ -114,4 +123,19 @@ Blue grey: #3e4249
      font-weight: bold;
      display: block;
 
+ }
+
+ /* Layout */
+ #optin {
+    background: #3e4249;
+    padding: 20px 0;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: 1.2em;
+
+ }
+
+ #optin p {
+     margin: 7px 0 0 0;
  }
