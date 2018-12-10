@@ -384,7 +384,7 @@ footer li.signup-link a:hover {
 
 /* Blog */
 
-.post, .widget. #comments {
+.post, .widget, #comments {
     position: relative;
     border: solid 1px #ddd;
     background: white;
