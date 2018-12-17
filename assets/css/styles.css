@@ -211,6 +211,10 @@ Blue grey: #3e4249
  section {
      padding: 80px 0;
  }
+
+ section.main-content {
+     padding: 40px 0;
+ }
  .section-header {
     text-align: center;
 }
@@ -540,6 +544,20 @@ footer li.signup-link a:hover {
     border-top: solid 1px #eee;
 }
 
+/* resources */
+
+.resource {
+    width: 31.333333333%;
+    float: left;
+    margin: 0 2% 40px 0;
+
+}
+
+.resource:nth-child(3n) {
+    margin-right: 0;
+}
+
+
 /* CUSTOM ICON SPRITES */
 i.ci {
     display: inline-block;
@@ -613,6 +631,12 @@ textarea {
         height: 240px;
     }
 
+    .resource {
+        width: 48%;
+        margin-right: 2%;
+        min-height: 800px;
+    }
+
 
 }
 
@@ -626,6 +650,14 @@ textarea {
     #instructor .num span {
         font-size: 16px;
     }
+
+    .resource {
+        width: 100%;
+        margin-right: 0;
+        min-height: 0;
+    }
     
 }
+
+
 
